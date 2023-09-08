@@ -1,4 +1,5 @@
 ## Upcoming release
+* Add support for running tasks on a `PersistentResource` (see [CustomJobSpec](https://cloud.google.com/vertex-ai/docs/reference/rest/v1beta1/CustomJobSpec)) via `persistent_resource_id` parameter on `preview.custom_job.CustomTrainingJobOp` and `preview.custom_job.create_custom_training_job_from_component`
 
 ## Release 2.3.1
 * Make LLM pipelines compatible with KFP SDK 2.1.3
