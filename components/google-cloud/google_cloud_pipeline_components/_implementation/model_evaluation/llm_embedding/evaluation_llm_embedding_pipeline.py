@@ -135,7 +135,7 @@ def evaluation_llm_embedding_pipeline(
       metadata={'resourceName': model_name},
   )
   get_vertex_model_task.set_display_name('get-vertex-model')
-
+  # Test
   batch_predict_corpus = ModelBatchPredictOp(
       project=project,
       location=location,
